@@ -1,1 +1,1 @@
-Assignments for Stanfords Algorithms course on Coursera
+Assignments for Stanfords Algorithms course on Coursera and practicing using Python

@@ -22,4 +22,5 @@ def multiply(x, y):
 	# carry out equation
 	return 10 ** (x_length / 2 + y_length / 2) * ac + 10 ** (x_length / 2) * ad + 10 ** (y_length / 2) * bc + bd
 
+#testing
 print(multiply(546845, 65151522))

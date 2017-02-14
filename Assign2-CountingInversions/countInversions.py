@@ -1,3 +1,5 @@
+# count inversions of a list where an inversion is where i < j but arr[i] > arr[j]
+
 def countInversions(numbers_list, l, r):
 	count = 0
 	m = (l + r) / 2
@@ -61,6 +63,7 @@ def badCountInversions(numbers_list):
 				count += 1
 	return count
 
+# testing
 numbers = open('integers1-100000.txt', 'r').read()
 test = numbers.split('\n')
 

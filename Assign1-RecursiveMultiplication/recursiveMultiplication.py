@@ -1,3 +1,4 @@
+# multiplies two numbers recursively
 def multiply(x, y):
 	# if x and y single digit return
 	if (x / 10 == 0) and (y / 10 == 0):

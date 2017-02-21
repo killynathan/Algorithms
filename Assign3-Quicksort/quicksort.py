@@ -1,3 +1,5 @@
+# implementing the classic, quicksort
+
 # used to count number of compares depending on what pivot I choose
 count = 0;
 

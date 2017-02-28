@@ -39,8 +39,6 @@ def findSCC(fileName):
 
 	data = _data()
 
-	# first processing list
-
 	# first past DFS Loop
 	DFS_loop(reverse_graph, reverse_graph.keys(), data)
 	
@@ -64,7 +62,6 @@ def DFS(graph, node, data):
 
 # DFS Loop
 def DFS_loop(graph, processList, data):
-	# assumes vertices labeled from 1 to graph length with no gaps or repeats
 	for elem in processList:
 		if elem not in data.explored:
 			data.s = elem

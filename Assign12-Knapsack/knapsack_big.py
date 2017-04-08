@@ -8,7 +8,6 @@ def getOptimalValueForKnapsack(filename):
 	
 	# loop through items and get optimal value at each weight
 	for i in range(1, num_of_items + 1):
-		print(i)
 		for j in range(capacity, items[i][1] - 1, -1): # dont need to update if weight of item too high
 			A[j] = max(A[j], A[j - items[i][1]] + items[i][0])
 
